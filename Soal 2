@@ -1,0 +1,10 @@
+def hitung_luas_segitiga(alas, tinggi):
+    luas = 0.5 * alas * tinggi
+    return luas
+
+alas = float(input("Masukkan alas segitiga (X): "))
+tinggi = float(input("Masukkan tinggi segitiga (Y): "))
+
+luas_segitiga = hitung_luas_segitiga(alas, tinggi)
+
+print(f"Luas segitiga (Z) adalah: {luas_segitiga}")
