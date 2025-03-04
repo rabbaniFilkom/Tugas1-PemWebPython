@@ -1,0 +1,27 @@
+# Fungsi untuk menghitung keliling kubus
+def hitung_keliling_kubus(sisi):
+    keliling = 12 * sisi  # Keliling kubus adalah 12 kali panjang sisi
+    return keliling
+
+# Fungsi untuk menghitung luas kubus
+def hitung_luas_kubus(sisi):
+    luas = 6 * (sisi ** 2)  # Luas permukaan kubus adalah 6 kali luas salah satu sisi
+    return luas
+
+# Fungsi untuk menghitung volume kubus
+def hitung_volume_kubus(sisi):
+    volume = sisi ** 3  # Volume kubus adalah sisi pangkat 3
+    return volume
+
+# Input dari pengguna
+sisi = float(input("Masukkan panjang sisi kubus: "))
+
+# Menghitung keliling, luas, dan volume kubus
+keliling_kubus = hitung_keliling_kubus(sisi)
+luas_kubus = hitung_luas_kubus(sisi)
+volume_kubus = hitung_volume_kubus(sisi)
+
+# Menampilkan hasil
+print(f"Keliling kubus adalah: {keliling_kubus}")
+print(f"Luas kubus adalah: {luas_kubus}")
+print(f"Volume kubus adalah: {volume_kubus}")
