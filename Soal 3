@@ -1,0 +1,29 @@
+# Fungsi untuk menghitung keliling balok
+def hitung_keliling_balok(panjang, lebar, tinggi):
+    keliling = 4 * (panjang + lebar + tinggi)
+    return keliling
+
+# Fungsi untuk menghitung luas balok
+def hitung_luas_balok(panjang, lebar, tinggi):
+    luas = 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi)
+    return luas
+
+# Fungsi untuk menghitung volume balok
+def hitung_volume_balok(panjang, lebar, tinggi):
+    volume = panjang * lebar * tinggi
+    return volume
+
+# Input dari pengguna
+panjang = float(input("Masukkan panjang balok: "))
+lebar = float(input("Masukkan lebar balok: "))
+tinggi = float(input("Masukkan tinggi balok: "))
+
+# Menghitung keliling, luas, dan volume balok
+keliling_balok = hitung_keliling_balok(panjang, lebar, tinggi)
+luas_balok = hitung_luas_balok(panjang, lebar, tinggi)
+volume_balok = hitung_volume_balok(panjang, lebar, tinggi)
+
+# Menampilkan hasil
+print(f"Keliling balok adalah: {keliling_balok}")
+print(f"Luas balok adalah: {luas_balok}")
+print(f"Volume balok adalah: {volume_balok}")
