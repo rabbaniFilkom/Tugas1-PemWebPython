@@ -1,0 +1,6 @@
+
+nama = (input("Masukkan Nama: "))
+Kampus = (input("Nama Kampus: "))
+Nim = (input("NIM :"))
+
+print (f"Perkenalkan Nama saya {nama}, saya kuliah di {Kampus} dengan NIM {Nim}")
